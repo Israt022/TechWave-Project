@@ -5,15 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechWave</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
-<body class="font-inter">
+<body class="font-inter m-0 p-0">
     <header>
-        <h1 class="text-2xl font-bold text-red-500">Welcome!</h1>
+        <nav 
+            class="lg:mx-[200px] flex justify-between lg:justify-between gap-4 md:justify-between md:mx-4"
+         >
+            <h1
+                class="ml-4 my-[30px] text-white text-3xl font-bold md:ml-0" 
+            >Tech<span class="bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">Wave</span></h1>
+
+            <div
+                class="block md:hidden mr-4 text-white  my-auto text-2xl"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <ul class="hidden md:flex text-white  gap-5 items-center cursor-pointer">
+                <li>About</li>
+                <li>Episodes</li>
+                <li>Host</li>
+            </ul>
+
+            <button class="hidden md:block px-3 py-1 my-6 bg-white rounded-full bg-gradient-to-tr from-yellow-500 via-pink-500 to-purple-500 text-white flex gap-5 font-semibold
+            hover:animate-pulse cursor-pointer
+            ">
+                Subscribe <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            
+        </nav>
+        
     </header>
     <main></main>
     <footer></footer>

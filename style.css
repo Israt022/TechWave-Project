@@ -5,3 +5,11 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+header{
+    background-color: rgba(24, 1, 49, 0.976);
+}
+.humburger{
+    width: 2%;
+}
+
