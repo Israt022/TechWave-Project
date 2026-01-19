@@ -19,6 +19,7 @@ header{
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .sec-grid{
     background-color: rgba(27, 1, 55, 0.959);
