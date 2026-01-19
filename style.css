@@ -20,3 +20,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.sec-grid{
+    background-color: rgba(27, 1, 55, 0.959);
+    /* background-color: rgba(39, 3, 77, 0.959); */
+}
